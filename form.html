@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>form</title>
+    
+</head>
+<body>
+    <h1>Student Details</h1>
+   <br>
+    <form name="myform"><br><br>
+        <div class="User">
+                <div class="ab">
+        <label for="name" id="nm">Name:&nbsp;</label><br>
+        <input type="text" class="pure-input-rounded" name="fname" placeholder="Enter your name" size="42px" required><br><br><br>
+        
+        <label for="rollno">Roll No:&nbsp;</label>
+        <br><input type="text" name="roll" placeholder="Enter your roll no" required size="42px"><br><br><br>
+        
+            <label for="yr">Year of Study</label><br>
+            <select name="stud" id="yr" required>
+                <option value="1">Select</option>
+                <option value="1">I</option>
+                <option value="2">II</option>
+                <option value="3">III</option>
+                <option value="4">IV</option>
+            </select><br><br><br>
+        
+        <label for="dep">Choose Your Department</label>
+        <br><select name="cs" id="gh" required>
+            <option value="">&nbsp;&nbsp;Select</option>
+        <option value="CSE">CSE</option>
+        <option value="IT">IT</option>
+        <option value="ad">AIDS</option>
+        <option value="al">AIML</option>
+        <option value="eee">EEE</option>
+        <option value="ec">ECE</option>
+        <option value="FT">FT</option>
+    </select><br><br><br>
+
+
+    <label for="em">Email id :(College mail-id) </label><br>
+    <input type="email" name="em" placeholder="Email" size="42px"><br><br><br>
+</div>
+    <div class="cd">
+    <label for="clg">College Name: </label><br>
+    <input type="text" name="clg" placeholder="Enter your college name" size="42px"><br><br><br>
+
+        <label for="gend">Gender:</label><br>
+        <input type="radio" id="Male" name="gend" required><label for="">Male&nbsp;</label>
+        <input type="radio" name="gend" id="fmale"><label for="">Female&nbsp;</label>
+        <input type="radio" name="gend" id="other"><label for="">Others&nbsp;</label><br><br><br>
+        
+        <label for="dob">Date of Birth: </label>
+        <br><input type="date" name="dob" placeholder="Choose your date of birth" size="42px"><br><br><br>
+    
+        <label for="ph">Mobile Number: </label><br>
+        <input type="tel" name="mob" maxlength="10" placeholder="Enter your mobile Number" size="42px"><br><br><br>
+
+        
+    
+    </div>
+    </div>
+    <div class="container">
+    
+        <br><br>
+    <button type="submit" size="27px" onclick="show()">Submit</button>
+</div>
+</form>
+</body>
+</html>
